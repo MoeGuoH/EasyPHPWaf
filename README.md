@@ -16,7 +16,6 @@
 │  README.md //说明文件
 │  waf_WatchDog.exe //Window监控脚本客户端
 │  waf_WatchDog.py //python监控脚本源码
-│  
 └─Upload //上传目录
         filter.php //过滤文件
         lib.php //防火墙核心库
@@ -26,6 +25,7 @@
 ```
 ## 使用方法
 ### 服务端
+* 把upload文件夹内的文件 传至tmp目录
 * 备份: ```./protect.sh /var/www/html gameboxname backup ```
 * 设置waf: ```./protect.sh /var/www/html gameboxname setwaf ```
 * 还原: ```./protect.sh /var/www/html gameboxname reload ```
