@@ -1,4 +1,4 @@
-# CellWaf
+# EasyPHPWaf
 ## 描述
 本项目是一款简单,<ruby>智<rp>(<rp><rt>粗</rt><rp>)</rp>&nbsp;能<rp>(</rp><rt>&nbsp;暴</rt><rp>)</rp></ruby>为PHP架设保姆级WEB防火墙,适用于国内高校赛CTF比赛中AWD环节,提供日志审查、抓取payload、过滤未知威胁操作,误杀率较低,**本waf不会die掉任何请求只会自动替换掉敏感请求数据**.并配备监控脚本用于查看当前受攻击情况.
 ## 特性
